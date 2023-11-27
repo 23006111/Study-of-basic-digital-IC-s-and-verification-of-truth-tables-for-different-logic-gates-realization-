@@ -1,6 +1,10 @@
-# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
-Name:Ramya P
-Ref no:23006111
+
+
+
+NAME:RAMYA P
+REF NO:23006111
+# Study of basic digital IC-s and verification of truth tables for different logic gates realization-
+
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
@@ -79,6 +83,11 @@ RTL Realization:
 
 Truth Table:
 ![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/d9e72abf-2a7a-4725-aa29-8fa79b9e0a9d)
+
+Timing Line:
+
+![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/214d1345-e3b9-4bfe-b274-3cf3d78c335f)
+
 
 
 
