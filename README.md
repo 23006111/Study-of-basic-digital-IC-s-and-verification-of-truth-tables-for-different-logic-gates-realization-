@@ -61,17 +61,25 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
 ```
-module project_1(A,B,Y);
-input A,B;
-output Y;
-assign Y= A&B;
+module logic gates ( a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor ( y7,a,b);
 endmodule
 ```
 RTL Realization:
-![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/6eeb247e-7208-4e4e-bbd6-906ce7c19816)
+![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/96b629ef-fd24-4c8d-8a05-9fb27bf08cfc)
+
 
 Truth Table:
-![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/590b5c8e-bd32-4736-87f5-0e00fe3b5af1)
+![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/d9e72abf-2a7a-4725-aa29-8fa79b9e0a9d)
+
 
 
 
