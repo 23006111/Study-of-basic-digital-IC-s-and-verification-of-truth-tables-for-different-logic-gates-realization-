@@ -68,9 +68,11 @@ assign Y= A&B;
 endmodule
 ```
 RTL Realization:
-![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/10cc094f-2b06-4a69-a9e2-f0f30a81ce8b)
+![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/6eeb247e-7208-4e4e-bbd6-906ce7c19816)
+
 Truth Table:
-![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/c3ccf21e-94ad-4548-9a8b-e3861a0e005c)
+![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/590b5c8e-bd32-4736-87f5-0e00fe3b5af1)
+
 
 
 
