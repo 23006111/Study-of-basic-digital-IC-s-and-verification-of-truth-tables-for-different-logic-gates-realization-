@@ -1,18 +1,21 @@
 
 
 
-NAME:RAMYA P
-REF NO:23006111
+## NAME:RAMYA P
+## REF NO:23006111
 # Study of basic digital IC-s and verification of truth tables for different logic gates realization-
 
- AIM:
+ ## AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
-Equipments Required:
+## Equipments Required:
+```
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
-Theory
-Introduction
+```
+
+## Theory
+
 Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate
@@ -63,7 +66,8 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:
+
+## Program:
 ```
 module logic gates ( a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
@@ -77,14 +81,14 @@ nor (y6,a,b);
 xnor ( y7,a,b);
 endmodule
 ```
-RTL Realization:
+## RTL Realization:
 ![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/96b629ef-fd24-4c8d-8a05-9fb27bf08cfc)
 
 
-Truth Table:
+## Truth Table:
 ![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/d9e72abf-2a7a-4725-aa29-8fa79b9e0a9d)
 
-Timing Line:
+## Timing Line:
 
 ![image](https://github.com/23006111/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145981696/214d1345-e3b9-4bfe-b274-3cf3d78c335f)
 
@@ -99,5 +103,5 @@ Timing Line:
 
 
 
-Result:
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
